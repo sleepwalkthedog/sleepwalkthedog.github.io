@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "aktiv-grotesk";
+    src: url("font/Aktiv Grotesk/OTF/AktivGrotesk-Regular.otf") format('opentype'),
+        url("font/Aktiv Grotesk/OTF/AktivGrotesk-Black.otf") format('opentype'),
+        url("font/Aktiv Grotesk/OTF/AktivGrotesk-BlackItalic.otf") format('opentype'),
+        url("font/Aktiv Grotesk/OTF/AktivGrotesk-Light.otf") format('opentype'),
+        url("font/Aktiv Grotesk/OTF/AktivGrotesk-LightItalic.otf") format('opentype'),
+        url("font/Aktiv Grotesk/OTF/AktivGrotesk-MediumItalic.otf") format('opentype');
+    font-weight: unset;
+    font-style: unset;
+}
+
+@font-face {
+    font-family: "aktiv-grotesk";
+    src: url("font/Aktiv Grotesk/OTF/AktivGrotesk-Bold.otf") format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "aktiv-grotesk";
+    src: url("font/Aktiv Grotesk/OTF/AktivGrotesk-Medium.otf") format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "aktiv-grotesk";
+    src: url("font/Aktiv Grotesk/OTF/AktivGrotesk-Hairline.otf") format('opentype');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "aktiv-grotesk";
+    src: url("font/Aktiv Grotesk/OTF/AktivGrotesk-Italic.otf") format('opentype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "aktiv-grotesk";
+    src: url("font/Aktiv Grotesk/OTF/AktivGrotesk-BoldItalic.otf") format('opentype');
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "aktiv-grotesk";
+    src: url("font/Aktiv Grotesk/OTF/AktivGrotesk-HairlineItalic.otf") format('opentype');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'aktiv-grotesk';
+    font-weight: normal;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    position: fixed;
+    margin: 10px;
+    z-index: 2;
+}
+
+a {
+    color: #276356;
+    font-size: 25px;
+}
+a:hover {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    a {
+        background-color: white;
+    }
+}
+
+h1 {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 15vmin;
+    background-color: #F8CFF2;
+    color: #276356;
+}
+
+.headBox {
+    width: 100%;
+    row-gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 7vmin;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8CFF2;
+    color: #276356;
+}
+
+.gigBox {
+    width: 80%;
+    border: 5px solid #276356;
+    margin: 40px;
+}
+
+.photosBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    padding: 50px 0;
+}
+
+.imgBox {
+    width: 24vmax;
+    height: 24vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+
+}
+
+button {
+    text-align: center;
+    background-color: transparent;
+    border: 3px solid #276356;
+    color: #276356;
+    padding: 2% 3%;
+    font-size: 3vmin;
+}
+
+button:hover {
+    color: white;
+    background-color: #276356;
+    cursor: pointer;
+}
