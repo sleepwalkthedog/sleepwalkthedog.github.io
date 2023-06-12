@@ -217,8 +217,13 @@ nav>a {
     background-color: hsl(309, 75%, 89%);
     color: #276356;
 }
+#single-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-#single-div>div {
+#single-description-div {
     width: 50%;
     height: 100%;
     display: flex;
@@ -231,21 +236,29 @@ nav>a {
     justify-content: start;
     align-items: start;
     flex-direction: row;
+    height: 40vmax;
+    width: 40vmax;
 }
 
 #single-image-div>div {
-    width: 20vmax;
-    height: 20vmax;
+    width: 19.8vmax;
+    height: 19.8vmax;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #stay-away {
     background-image: url("./img/ac29e5ee-afe5-4c81-8a70-e27e7a219afa.jpg");
+
+}
+
+#orange-dream {
+    background-image: url("./img/353883292_645641744110736_4210858568055779627_n.jpg");
 
 }
 
