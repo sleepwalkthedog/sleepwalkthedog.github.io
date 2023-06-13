@@ -555,7 +555,11 @@ input {
 
 
 
-
+    #banner {
+        background-image: url("./img/mobile-banner.jpg");
+        background-size: cover;
+        background-position: 20% 0%;
+    }
 
 
 
