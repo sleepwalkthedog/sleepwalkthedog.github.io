@@ -310,6 +310,11 @@ nav>a {
     font-weight: normal;
 }
 
+#about-div>div>p {
+    font-weight: bold;
+    font-size: 3vmin;
+}
+
 #about-div>div {
     width: 80%;
 }
