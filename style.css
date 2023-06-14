@@ -389,7 +389,15 @@ iframe {
 #upcoming-shows-div {
     flex-direction: column;
    display: flex;
+   row-gap: 20px;
 }
+
+#widget-box {
+    height: 40vh;
+    border: 3px solid #276356;
+    overflow-y: scroll;
+}
+
 
 #shows-img-div {
     height: 25vmax;
