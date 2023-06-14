@@ -582,17 +582,18 @@ input {
 
     #shows-info {
         flex-direction: column;
-        height: 70vmax;
+        height: 85vmax;
     }
 
     #shows-info>div {
-        width: 30vmax;
-        height: 30vmax;
+        width: 40vmax;
+        height: 40vmax;
     }
 
     #shows-img-div {
-        width: 20vmax;
-        height: 20vmax;
+        width: 28vmax;
+        height: 28vmax;
+        border: 1px solid blue;
     }
 
     #past-shows-div {
@@ -600,13 +601,18 @@ input {
         flex-direction: column;
         justify-content: space-between;
         row-gap: 20px;
-        height: 60vmax;
+        height: 80%;
+        border: 1px solid red;
+    }
+    #past-shows-div button {
+        font-weight: bold;
     }
 
     #upcoming-shows-div {
         flex-direction: column;
        display: flex;
        height: 40vmax;
+       border: 1px solid purple;
     }
 
     button {
