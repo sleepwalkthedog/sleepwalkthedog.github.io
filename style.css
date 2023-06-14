@@ -113,8 +113,6 @@ button:hover {
 
 
 
-
-
 /*BANNER, HEADER, NAVIGATION*/
 
 
@@ -138,6 +136,7 @@ button:hover {
 header {
     width: 100%;
 }
+
 #title-div {
     display: flex;
     width: 100;
@@ -161,10 +160,11 @@ header {
 
 nav {
     width: 10%;
-    position:fixed;
+    position: fixed;
     top: 3px;
     left: 3px;
 }
+
 nav>a {
     color: white;
     font-size: 5vmin;
@@ -182,7 +182,7 @@ nav>a {
     overflow: hidden;
     width: 35px;
     height: 35px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 35px;
@@ -217,6 +217,7 @@ nav>a {
     background-color: hsl(309, 75%, 89%);
     color: #276356;
 }
+
 #single-div {
     display: flex;
     justify-content: space-between;
@@ -232,7 +233,7 @@ nav>a {
 #single-image-div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: space-between;
     align-items: start;
     flex-direction: row;
     height: 40vmax;
@@ -324,19 +325,25 @@ nav>a {
     background-color: #b94d47;
 }
 
-#video-div>div {
-    height: 100%;
+#videos-div {
+    width: 80%;
+    height: 90%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around
-}
-
-#video-description-div {
-    width: 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .video-div {
-    width: 80%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        width: 48%;
+}
+
+.video-div button {
+    font-weight: bold;
 }
 
 iframe {
@@ -353,32 +360,40 @@ iframe {
 #shows-div {
     flex-direction: column;
     justify-content: space-evenly;
-    row-gap: 20px;
 }
 
-#shows-div>div {
-    display: flex;
-    justify-content: space-evenly;
-    row-gap: 15px;
-}
+
 
 #shows-info {
     display: flex;
     justify-content: space-between;
-    height: 70%;
 }
 
 #shows-info>div {
     width: 50%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#shows-info h3 {
+    font-weight: bold;
+    font-size: 5vmin;
+    text-decoration: underline;
+}
+
+#shows-info a {
+    font-weight: bold;
+}
+#upcoming-shows-div {
+    flex-direction: column;
+   display: flex;
 }
 
 #shows-img-div {
-    height: 250px;
-    width: 250px;
+    height: 25vmax;
+    width: 25vmax;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -389,30 +404,8 @@ iframe {
     width: 100%;
 }
 
-
-.info-box {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10%;
-    width: 100%;
-}
-
-.date {
-    color: #B0E3F8;
-}
-
-.venue {
-    font-weight: bold;
-    font-size: 3vmin;
-}
-
-.show {
-    font-weight: bold;
-    font-size: 2.5vmin;
-}
-
-.city-time {
-    color: #B0E3F8;
+#past-shows-div {
+    row-gap: 20px;
 }
 
 #pics {
@@ -494,7 +487,8 @@ footer>div {
 }
 
 footer button {
-    padding: 0px;
+    padding: 10px 20px;
+    margin: 10px 20px;
 }
 
 input {
@@ -534,6 +528,7 @@ input {
         flex-direction: row;
         top: 0px;
     }
+
     nav {
         width: 80%;
         position: sticky;
@@ -542,11 +537,14 @@ input {
     nav>a {
         font-size: 16px;
     }
-    
+
+ 
+
     .socials>a {
         width: 25px;
         height: 25px;
     }
+
     #spotify {
         width: 17px;
         height: 17px;
@@ -566,26 +564,37 @@ input {
 
     #shows-div {
         height: 100%;
-   justify-content: space-around;
-    }
-
-    #shows-div>div {
-        row-gap: 100px;
+        justify-content: space-around;
+        align-items: center;
     }
 
     #shows-info {
         flex-direction: column;
-        height: 30%;
+        height: 70vmax;
     }
 
     #shows-info>div {
-        width: 100%;
+        width: 30vmax;
+        height: 30vmax;
+    }
+
+    #shows-img-div {
+        width: 20vmax;
+        height: 20vmax;
+    }
+
+    #past-shows-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 20px;
+        height: 60vmax;
     }
 
     #upcoming-shows-div {
-        flex-direction: row;
-        flex-wrap: wrap;
-        display: flex;
+        flex-direction: column;
+       display: flex;
+       height: 40vmax;
     }
 
     button {
@@ -593,7 +602,4 @@ input {
         width: 100px;
     }
 
-    #shows-img-div {
-        width: 100%;
-    }
 }

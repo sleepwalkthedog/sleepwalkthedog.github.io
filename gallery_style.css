@@ -64,8 +64,13 @@
 
 nav {
     position: fixed;
+    display: flex;
     margin: 10px;
     z-index: 2;
+    width: 8%;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    flex-direction: column;
 }
 
 a {
@@ -88,6 +93,12 @@ h1 {
     font-size: 15vmin;
     background-color: #F8CFF2;
     color: #276356;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8CFF2;
+    align-items: center;
 }
 
 .headBox {
