@@ -165,6 +165,10 @@ nav {
     left: 3px;
 }
 
+a {
+    cursor: pointer;
+}
+
 nav>a {
     color: white;
     font-size: 5vmin;
@@ -240,7 +244,7 @@ nav>a {
     width: 40vmax;
 }
 
-#single-image-div>div {
+#single-image-div div {
     width: 19.8vmax;
     height: 19.8vmax;
     background-position: center;
