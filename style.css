@@ -606,7 +606,7 @@ input {
         justify-content: space-between;
         row-gap: 20px;
         height: 80%;
-        border: 1px solid red;
+        border: ;
     }
     #past-shows-div button {
         font-weight: bold;
@@ -616,7 +616,7 @@ input {
         flex-direction: column;
        display: flex;
        height: 40vmax;
-       border: 1px solid purple;
+       border: ;
     }
 
     button {
