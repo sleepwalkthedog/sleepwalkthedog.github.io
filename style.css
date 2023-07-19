@@ -270,6 +270,11 @@ nav>a {
     background-image: url("./img/320aaab8-0d75-476b-9e08-1ab82cbf80a8.jpg");
 }
 
+#rockabye-baby {
+    background-image: url("Rock-a-bye Baby front cover.jpg");
+
+}
+
 #single-description-div {
     flex-direction: column;
     justify-content: space-evenly;
