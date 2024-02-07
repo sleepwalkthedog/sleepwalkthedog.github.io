@@ -165,6 +165,10 @@ nav {
     left: 3px;
 }
 
+a {
+    cursor: pointer;
+}
+
 nav>a {
     color: white;
     font-size: 5vmin;
@@ -240,7 +244,7 @@ nav>a {
     width: 40vmax;
 }
 
-#single-image-div>div {
+#single-image-div div {
     width: 19.8vmax;
     height: 19.8vmax;
     background-position: center;
@@ -258,12 +262,16 @@ nav>a {
 }
 
 #orange-dream {
-    background-image: url("./img/353883292_645641744110736_4210858568055779627_n.jpg");
+    background-image: url("./img/Orange_dream_artwork_pix-min.jpg");
 
 }
 
 #the-sorrowing {
     background-image: url("./img/320aaab8-0d75-476b-9e08-1ab82cbf80a8.jpg");
+}
+
+#rockabye-baby {
+    background-image: url("./img/Rock-a-bye_Baby_front_cover-min.jpg");
 }
 
 #single-description-div {
@@ -389,7 +397,15 @@ iframe {
 #upcoming-shows-div {
     flex-direction: column;
    display: flex;
+   row-gap: 20px;
 }
+
+#widget-box {
+    height: 40vh;
+    border: 3px solid #276356;
+    overflow-y: scroll;
+}
+
 
 #shows-img-div {
     height: 25vmax;
@@ -510,6 +526,10 @@ input {
 
 @media screen and (max-width: 968px) {
 
+    * {
+        font-weight: bold;
+    }
+
     #title {
         width: 100%;
     }
@@ -570,17 +590,18 @@ input {
 
     #shows-info {
         flex-direction: column;
-        height: 70vmax;
+        height: 85vmax;
     }
 
     #shows-info>div {
-        width: 30vmax;
-        height: 30vmax;
+        width: 40vmax;
+        height: 40vmax;
     }
 
     #shows-img-div {
-        width: 20vmax;
-        height: 20vmax;
+        width: 28vmax;
+        height: 28vmax;
+        border: 1px solid blue;
     }
 
     #past-shows-div {
@@ -588,13 +609,18 @@ input {
         flex-direction: column;
         justify-content: space-between;
         row-gap: 20px;
-        height: 60vmax;
+        height: 80%;
+        border: ;
+    }
+    #past-shows-div button {
+        font-weight: bold;
     }
 
     #upcoming-shows-div {
         flex-direction: column;
        display: flex;
        height: 40vmax;
+       border: ;
     }
 
     button {
