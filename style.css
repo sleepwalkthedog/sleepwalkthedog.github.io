@@ -220,6 +220,7 @@ nav>a {
 #single {
     background-color: hsl(309, 75%, 89%);
     color: #276356;
+    height: 110vh;
 }
 
 #single-div {
@@ -240,13 +241,14 @@ nav>a {
     justify-content: space-between;
     align-items: start;
     flex-direction: row;
-    height: 40vmax;
-    width: 40vmax;
+    height: 45vmax;
+    width: 30vmax;
+    overflow: hidden;
 }
 
 #single-image-div div {
-    width: 19.8vmax;
-    height: 19.8vmax;
+    width: 15vmax;
+    height: 15vmax;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -272,6 +274,14 @@ nav>a {
 
 #rockabye-baby {
     background-image: url("./img/Rock-a-bye_Baby_front_cover-min.jpg");
+}
+
+#black-is-the-colour {
+    background-image: url("./img/black\ is\ the\ colour\ SINGLE\ COVER\ \(3\)_page-0001.jpg");
+}
+
+#i-will {
+    box-shadow: inset 1px 1px #276356, inset -1px -1px #276356;
 }
 
 #single-description-div {
@@ -580,6 +590,13 @@ input {
 
     #single-div {
         flex-direction: column;
+    }
+    #single-description-div {
+        height: 50%;
+    }
+
+    #i-will>p {
+        padding: 10px;
     }
 
     #shows-div {
