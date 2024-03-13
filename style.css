@@ -281,7 +281,8 @@ nav>a {
 }
 
 #i-will {
-    box-shadow: inset 1px 1px #276356, inset -1px -1px #276356;
+        background-image: url("./img/i-will-single-cover.jpg");
+    }
 }
 
 #single-description-div {
