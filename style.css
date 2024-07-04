@@ -122,7 +122,7 @@ button:hover {
 }
 
 #banner {
-    background-image: url("img/Three\ colour\ church\ photo.jpg");
+    background-image: url("img/small\ Three\ colour\ church\ photo.jpg.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -582,7 +582,7 @@ input {
 
 
     #banner {
-        background-image: url("./img/mobile-vertical-banner-church.jpg");
+        background-image: url("./img/small\ mobile\ vertical\ banner\ church.jpg");
         background-size: cover;
         background-position: 20% 0%;
     }
